@@ -58,7 +58,7 @@ func main() {
 
 	fmt.Println("A type switch compares type instead of values")
 
-	whatami := func(i interface{}) {
+	whatami := func(i interface{}) { //or func(i any) 
 		switch t := i.(type) { 
 			case bool:
 				fmt.Println("I'm a bool")
