@@ -1,8 +1,8 @@
-package main
+package forloop
 
 import "fmt"
 
-func main() {
+func Forloop() {
 	
 	i := 1
 
@@ -31,4 +31,6 @@ func main() {
 		}
 		fmt.Println(n)
 	}
+
+	return
 }

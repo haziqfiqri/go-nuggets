@@ -1,4 +1,4 @@
-package main
+package constant
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 const s string = "constant"
 
-func main() {
+func Constant() {
 	fmt.Println(s)
 
 	const n = 500000000
@@ -22,4 +22,6 @@ func main() {
 	fmt.Println(int64(d))
 
 	fmt.Println(math.Sin(n))
+
+	return
 }

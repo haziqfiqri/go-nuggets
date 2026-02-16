@@ -1,8 +1,8 @@
-package main
+package if_else
 
 import "fmt"
 
-func main() {
+func IfElse() {
 
 	const result = 1 + 1
 
