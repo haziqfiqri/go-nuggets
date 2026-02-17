@@ -1,7 +1,5 @@
 package main
 
-import "go-nuggets/rangeoverbuiltintypes"
-
 func main() {
 	
 	// arrays.Arrays()
@@ -52,6 +50,10 @@ func main() {
 
 	// functions.RecursionFunc(5)
 
-	rangeoverbuiltintypes.RangeOverBuiltInTypes()
-}
+	// rangeoverbuiltintypes.RangeOverBuiltInTypes()
 
+	// pointers.Pointers()
+
+	// strings_runes.StringRunes()
+
+}
