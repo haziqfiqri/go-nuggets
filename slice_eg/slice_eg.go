@@ -10,12 +10,12 @@ func Slices() {
 	var s []string 
 	fmt.Println("s:", s, s == nil, len(s) == 0)
 
-	s = make([]string, 3)
+	s = make([]string, 3) // create slice of length 3, capacity 3
 	fmt.Println("s:", s, len(s), cap(s))
 
 	
 	var s2 []string 
-	s2 = make([]string, 0, 3)
+	s2 = make([]string, 0, 3) // create slice of length 0, capacity 3
 	fmt.Println("s:", s2, len(s2), cap(s2))
 
 	// can directly assign because of prefilled zero value
@@ -49,6 +49,19 @@ func Slices() {
 		fmt.Println("same")
 	}
 
+	sample_ar := make([][]int, 3)
+
+	for i := range 3 { 
+		innerLen := i + 1
+
+		sample_ar[i] = make([]int, innerLen)
+
+		for j := range innerLen {
+			sample_ar[i][j] = i + j
+		}
+	}
+
+	fmt.Println("sample_ar:", sample_ar)
 	
 	return
 }
