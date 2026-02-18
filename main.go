@@ -1,5 +1,7 @@
 package main
 
+import "go-nuggets/structs_eg"
+
 func main() {
 	
 	// arrays.Arrays()
@@ -56,4 +58,5 @@ func main() {
 
 	// strings_runes.StringRunes()
 
+	structs_eg.Structs()
 }
