@@ -1,6 +1,8 @@
 package main
 
-import "go-nuggets/structs_eg"
+import (
+	structembeddings "go-nuggets/struct_embeddings"
+)
 
 func main() {
 	
@@ -58,5 +60,13 @@ func main() {
 
 	// strings_runes.StringRunes()
 
-	structs_eg.Structs()
+	// structs_eg.Structs()
+
+	// methods.Methods()
+
+	// interfaces_eg.Interfaces()
+
+	// enums_eg.Enums()
+
+	structembeddings.StructEmbeddings()
 }
